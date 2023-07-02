@@ -4,8 +4,8 @@
 
 
 <section
-  class="grid lg:grid-cols-2 place-items-center pb-8 md:pt-12 md:pb-24 lg:px-12 px-4 pt-4">
-  <div class="py-6 lg:order-1 md:block">
+  class="grid lg:grid-cols-2 place-items-center pb-8 md:pt-12 md:pb-24 lg:px-12 px-4 mt-12 lg:mt-0">
+  <div class="py-6 lg:order-1 md:block hidden">
     		<!-- Animated Logo -->
 		<figure>
 			<section class="img-bg" />
