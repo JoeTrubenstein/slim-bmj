@@ -4,7 +4,7 @@
 
 
 <section
-  class="grid lg:grid-cols-2 place-items-center pb-8 md:pt-12 md:pb-24 lg:px-12 px-4 mt-12 lg:mt-0">
+  class="grid lg:grid-cols-2 place-items-center pb-8 md:pt-12 md:pb-24 lg:px-12 px-4 mt-12 lg:mt-0 2xl:place-items-start 2xl:justify-center 2xl:items-center">
   <div class="py-6 lg:order-1 md:block hidden">
     		<!-- Animated Logo -->
 		<figure>
@@ -26,14 +26,13 @@
 	class="text-4xl lg:text-6xl xl:text-7xl lg:tracking-tighter font-black text-indigo-600 dark:text-indigo-400">
 	really fast websites
   </h1>
-    <p class="text-lg mt-4 max-w-xl">
-      Web development and digital marketing by a bald man in Japan. I make hand-coded JAMstack websites that outperform and outshine.
+    <p class="text-lg mt-4 max-w-xl dark:text-gray-200">
+      Web development and digital marketing by a bald man in Japan.<wbr> I make hand-coded websites that outperform and outshine.
     </p>
     <div class="mt-6 flex flex-col sm:flex-row gap-3 md:justify-center lg:justify-start">
-	  <button type="button" class="btn variant-filled bg-primary-500">Button</button>
+	  <button type="button" class="btn variant-filled bg-primary-500">See how</button>
       <button type="button" class="btn variant-filled bg-primary-500">
-	    <span>(icon)</span>
-	    <span>Button</span>
+	    <span>Get started for free</span>  
       </button>
     </div>
   </div>
