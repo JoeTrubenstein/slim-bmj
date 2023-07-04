@@ -26,7 +26,7 @@
 	class="text-4xl lg:text-6xl xl:text-7xl lg:tracking-tighter font-black text-indigo-600 dark:text-indigo-400">
 	really fast websites
   </h1>
-    <p class="text-lg mt-4 max-w-xl dark:text-gray-200">
+    <p class="text-lg mt-4 max-w-xl text-primary-500 dark:text-gray-200">
       Web development and digital marketing by a bald man in Japan.<wbr> I make hand-coded websites that outperform and outshine.
     </p>
     <div class="mt-6 flex flex-col sm:flex-row gap-3 md:justify-center lg:justify-start">

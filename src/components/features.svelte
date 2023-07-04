@@ -28,8 +28,8 @@
     <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight text-primary-500 dark:text-white">
       Everything you need to build an online presence
     </h2>
-    <p class="text-lg mt-4">
-      A data-driven approach that favors speed, security, and simplicity.
+    <p class="text-lg mt-4 text-primary-500 dark:text-gray-200">
+      A minimalist approach that favors speed, security, and simplicity. No plugins, no templates, no hassles.
     </p>
   </div>
   
@@ -38,11 +38,11 @@
     {#each features as item}
     <div class="flex gap-4 items-start">
         <div class="mt-1 bg-primary-500 dark:bg-white rounded-full p-2 w-8 h-8 shrink-0 flex items-center justify-center">
-          <i class={`${item.icon} text-white`}></i>
+          <i class={`${item.icon} text-white dark:text-black`}></i>
         </div>
         <div>
-          <h3 class="font-semibold text-lg">{item.title}</h3>{" "}
-          <p class="mt-2 leading-relaxed">{item.description}</p>
+          <h3 class="font-semibold text-lg text-indigo-600 dark:text-indigo-400">{item.title}</h3>{" "}
+          <p class="mt-2 leading-relaxed text-primary-500 dark:text-gray-200">{item.description}</p>
         </div>
       </div>
     {/each}
