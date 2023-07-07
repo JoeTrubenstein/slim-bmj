@@ -36,13 +36,13 @@
 
 			<!-- Trail -->
 			<svelte:fragment slot="trail">
-				<div class="hidden lg:block">
+				<div class="hidden md:block">
 					<a href="/about" class="btn btn-m variant-ghost-surface">About</a>
 					<a href="/contact" class="btn btn-m variant-ghost-surface">Contact</a>
 				</div>
-				<LightSwitch class="hidden lg:block" />
+				<LightSwitch class="hidden md:block" />
 				<div class="flex items-center">
-					<button on:click={drawerOpen} class="lg:hidden btn btn-sm mr-4">
+					<button on:click={drawerOpen} class="md:hidden btn btn-sm mr-4">
 						<span>
 							<svg viewBox="0 0 100 80" class="fill-token w-4 h-4">
 								<rect width="100" height="20" />
