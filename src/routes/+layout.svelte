@@ -6,28 +6,43 @@
 	// Most of your app wide CSS should be put in this file
 	import '../app.postcss';
 	import { AppShell, AppBar } from '@skeletonlabs/skeleton';
-	import { LightSwitch } from '@skeletonlabs/skeleton';
+    import Navigation from '$lib/assets/Navigation/Navigation.svelte';
+	import { Drawer, drawerStore } from '@skeletonlabs/skeleton';
+	import { LightSwitch } from "@skeletonlabs/skeleton";
+
+	function drawerOpen(): void {
+	  drawerStore.open({});
+    }
+
 </script>
+
+
+<!-- Drawer Overlay -->
+<Drawer>
+  <Navigation />
+</Drawer>
 
 <!-- App Shell -->
 <AppShell>
 	<svelte:fragment slot="header">
+
 		<!-- App Bar -->
-		<AppBar class="lg:px-12">
+		<AppBar class="lg:px-12 px-4">
+
+            <!-- Lead -->
 			<svelte:fragment slot="lead">
 				<strong class="text-lg">Bald Man Brands</strong>
 			</svelte:fragment>
+
+			<!-- Trail -->
 			<svelte:fragment slot="trail">
-				<a
-					class="btn btn-sm variant-ghost-surface hidden lg:block"
-					href="https://discord.gg/EXqV7W8MtY"
-					target="_blank"
-					rel="noreferrer"
-				>
-					Discord
-				</a>
+				<div class="hidden lg:block">
+					<a href="/about" class="btn btn-m variant-ghost-surface">About</a>
+					<a href="/contact" class="btn btn-m variant-ghost-surface">Contact</a>
+				</div>
+				<LightSwitch class="hidden lg:block" />
 				<div class="flex items-center">
-					<button class="lg:hidden btn btn-sm lg:mr-4">
+					<button on:click={drawerOpen} class="lg:hidden btn btn-sm mr-4">
 						<span>
 							<svg viewBox="0 0 100 80" class="fill-token w-4 h-4">
 								<rect width="100" height="20" />
@@ -36,12 +51,17 @@
 							</svg>
 						</span>
 					</button>
-					<LightSwitch class="hidden lg:block" />
 				</div>
 			</svelte:fragment>
+
 		</AppBar>
 	</svelte:fragment>
+
+	<!-- Left Sidebar Slot -->
+
+
 	<div class="container mx-auto">
+
 	<!-- Page Route Content -->
 	<slot />
 </AppShell>
