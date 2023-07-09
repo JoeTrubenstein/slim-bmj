@@ -24,14 +24,16 @@
   <!--  -->
     <div class="py-6 lg:order-1 md:hidden block 2xl:ml-44">
     		<!-- Animated Logo -->
-		<figure>
+			
+		<!-- <figure>
 			<section class="img-bg" />
             <img
-            class="min-h-72"
-            src={widelogo}
+            class="h-80 w-80"
+            src={logo}
             alt="Bald Man Brands"
           />
-		</figure>
+		</figure> -->
+
 		<!-- / -->
   </div>
 
