@@ -1,19 +1,17 @@
 <script>
 </script>
 
-<section class="p-4">
-<div
-  class="bg-tertiary-800 p-8 md:px-20 md:py-20 mt-20 mx-auto max-w-5xl rounded-lg flex flex-col items-center text-center mb-24 dark:border-gray-200 dark:border">
-  <h2 class="text-white text-4xl md:text-6xl tracking-tight">
-    Build faster websites.
+<div class="px-4">
+<div class="bg-slate-50 dark:bg-slate-800 dark:highlight-white/5 p-8 md:px-20 md:py-20 mt-20 mx-auto max-w-5xl rounded-lg flex flex-col items-center text-center mb-12">
+  <h2 class="text-4xl lg:text-6xl xl:text-7xl lg:tracking-tighter  font-black text-primary-500 dark:text-white">
+    Build better websites.
   </h2>
-  <p class="text-gray-200 mt-4 text-lg md:text-xl">
-    P
+  <p class="font-light text-gray-900 md:text-lg dark:text-gray-400 pt-2">
+    Pull content from anywhere and serve it fast with Astro's next-gen island
+    architecture.
   </p>
   <div class="flex mt-5">
-    <button class="btn variant-filled bg-tertiary-700">
-        Get Started
-    </button>
+    <a href="../#" class="btn variant-filled">Get started for free</a>
   </div>
 </div>
-</section>
+</div>

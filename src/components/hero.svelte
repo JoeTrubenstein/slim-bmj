@@ -1,22 +1,42 @@
 <script>
-  import logo from '$lib/assets/logo.png';
+  import logo from '$lib/assets/bmbsquare.webp';
+  import widelogo from '$lib/assets/bmbwide.webp'
 </script>
 
 
 <section
-  class="grid lg:grid-cols-2 place-items-center pb-8 md:pt-12 md:pb-24 lg:px-12 px-4 mt-12 lg:mt-0 2xl:place-items-start 2xl:justify-center 2xl:items-center">
+  class="grid lg:grid-cols-2 place-items-center pb-8 md:pt-12 md:pb-24 lg:px-12 px-4 lg:mt-12 lg:mt-0 2xl:place-items-start 2xl:justify-center 2xl:items-center">
   <div class="py-6 lg:order-1 md:block hidden 2xl:ml-44">
-    		<!-- Animated Logo -->
+
+    	<!-- Animated Logo -->
 		<figure>
 			<section class="img-bg" />
             <img
-            class="lg:w-72 md:w-72"
+            class="w-72 h-72"
             src={logo}
             alt="Bald Man Brands"
           />
 		</figure>
 		<!-- / -->
+
   </div>
+
+  <!--  -->
+    <div class="py-6 lg:order-1 md:hidden block 2xl:ml-44">
+    		<!-- Animated Logo -->
+		<figure>
+			<section class="img-bg" />
+            <img
+            class="min-h-72"
+            src={widelogo}
+            alt="Bald Man Brands"
+          />
+		</figure>
+		<!-- / -->
+  </div>
+
+
+
   <div class="lg:text-left md:text-center text-left">
     <h1
       class="text-4xl lg:text-6xl xl:text-7xl lg:tracking-tighter  font-black text-primary-500 dark:text-white">
@@ -26,8 +46,8 @@
 	class="text-4xl lg:text-6xl xl:text-7xl lg:tracking-tighter font-black text-indigo-600 dark:text-indigo-400">
 	really fast websites
   </h1>
-    <p class="text-lg mt-4 max-w-xl text-primary-500 dark:text-gray-200">
-      Web development and digital marketing by a bald man in Japan.<wbr> I make hand-coded websites that outperform and outshine.
+    <p class="text-lg mt-4 max-w-xl font-light text-gray-900 md:text-lg dark:text-gray-400">
+      Boutique web development and digital marketing from Japan.<wbr> I make hand-coded websites and data-driven ad campaigns that outperform and outshine.
     </p>
     <div class="mt-6 flex flex-col sm:flex-row gap-3 md:justify-center lg:justify-start">
 	  <button type="button" class="btn variant-filled bg-primary-500">See how</button>

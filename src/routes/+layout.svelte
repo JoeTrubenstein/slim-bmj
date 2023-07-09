@@ -6,7 +6,7 @@
 	// Most of your app wide CSS should be put in this file
 	import '../app.postcss';
 	import { AppShell, AppBar } from '@skeletonlabs/skeleton';
-    import Navigation from '$lib/assets/Navigation/Navigation.svelte';
+    import Navigation from '$lib/Navigation/Navigation.svelte';
 	import { Drawer, drawerStore } from '@skeletonlabs/skeleton';
 	import { LightSwitch } from "@skeletonlabs/skeleton";
 
@@ -27,7 +27,7 @@
 	<svelte:fragment slot="header">
 
 		<!-- App Bar -->
-		<AppBar class="lg:px-12 px-4">
+		<AppBar class="lg:px-12 px-4 dark:bg-slate-800">
 
             <!-- Lead -->
 			<svelte:fragment slot="lead">

@@ -23,13 +23,13 @@
 ];
 </script>
 
-<section class="md:pt-6 md:pb-24 lg:px-12  px-4 pt-2">
+<section class="md:pt-6 md:pb-12 lg:px-12  px-4 pt-2">
   <div class="mt-16 md:mt-0">
     <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight text-primary-500 dark:text-white">
       Everything you need to build an online presence
     </h2>
-    <p class="text-lg mt-4 text-primary-500 dark:text-gray-200">
-      A minimalist approach that favors speed, security, and simplicity. No plugins, no templates, no hassles.
+    <p class="text-lg mt-4 font-light text-gray-900 md:text-lg dark:text-gray-400">
+      A minimalist approach that favors speed, security, and simplicity. No plugins or page builders.
     </p>
   </div>
   
@@ -42,7 +42,7 @@
         </div>
         <div>
           <h3 class="font-semibold text-lg text-indigo-600 dark:text-indigo-400">{item.title}</h3>{" "}
-          <p class="mt-2 leading-relaxed text-primary-500 dark:text-gray-200">{item.description}</p>
+          <p class="mt-2 leading-relaxed font-light text-gray-900 md:text-lg dark:text-gray-400">{item.description}</p>
         </div>
       </div>
     {/each}
