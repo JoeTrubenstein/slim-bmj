@@ -3,6 +3,9 @@
   import widelogo from '$lib/assets/bmbwide.webp'
 </script>
 
+<svelte:head>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</svelte:head>
 
 <section
   class="grid lg:grid-cols-2 place-items-center pb-8 md:pt-12 md:pb-24 lg:px-12 px-4 lg:mt-12 2xl:place-items-start 2xl:justify-center 2xl:items-center">
@@ -24,7 +27,7 @@
   <!--  -->
     <div class="py-6 lg:order-1 md:hidden block 2xl:ml-44">
     		<!-- Animated Logo -->
-			
+
 		<!-- <figure>
 			<section class="img-bg" />
             <img
@@ -92,4 +95,8 @@
 			transform: scale(1.5);
 		}
 	}
+
+    h1 {
+        font-family: Raleway
+    }
 </style>
