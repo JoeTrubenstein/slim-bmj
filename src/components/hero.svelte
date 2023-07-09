@@ -5,7 +5,7 @@
 
 
 <section
-  class="grid lg:grid-cols-2 place-items-center pb-8 md:pt-12 md:pb-24 lg:px-12 px-4 lg:mt-12 lg:mt-0 2xl:place-items-start 2xl:justify-center 2xl:items-center">
+  class="grid lg:grid-cols-2 place-items-center pb-8 md:pt-12 md:pb-24 lg:px-12 px-4 lg:mt-12 2xl:place-items-start 2xl:justify-center 2xl:items-center">
   <div class="py-6 lg:order-1 md:block hidden 2xl:ml-44">
 
     	<!-- Animated Logo -->

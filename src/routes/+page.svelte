@@ -5,6 +5,10 @@
  import Footer from "../components/footer.svelte"
 </script>
 
+<svelte:head>
+    <title>Bald Man Brands</title> 
+</svelte:head>
+
 <Hero />
 <Features />
 <Cta />
