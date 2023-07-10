@@ -3,10 +3,6 @@
   import widelogo from '$lib/assets/bmbwide.webp'
 </script>
 
-<svelte:head>
-  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-</svelte:head>
-
 <section
   class="grid lg:grid-cols-2 place-items-center pb-8 md:pt-12 md:pb-24 lg:px-12 px-4 lg:mt-12 2xl:place-items-start 2xl:justify-center 2xl:items-center">
   <div class="py-6 lg:order-1 md:block hidden 2xl:ml-44">
@@ -44,13 +40,13 @@
 
   <div class="lg:text-left md:text-center text-left">
     <h1
-      class="text-4xl lg:text-6xl xl:text-7xl lg:tracking-tighter  font-black text-primary-500 dark:text-white">
+      class="text-4xl lg:text-6xl xl:text-7xl lg:tracking-tighter font-black text-primary-500 dark:text-white">
       Bald Man Brands
     </h1>
-	<h1
-	class="text-4xl lg:text-6xl xl:text-7xl lg:tracking-tighter font-black text-indigo-600 dark:text-indigo-400">
+	<h2
+	class="text-4xl lg:text-5xl xl:text-6xl lg:tracking-tighter font-black text-indigo-600 dark:text-indigo-400">
 	really fast websites
-  </h1>
+  </h2>
     <p class="text-lg mt-4 max-w-xl font-light text-gray-900 md:text-lg dark:text-gray-400">
       Boutique web development and digital marketing from Japan.<wbr> I make hand-coded websites and data-driven ad campaigns that outperform and outshine.
     </p>
@@ -95,8 +91,24 @@
 			transform: scale(1.5);
 		}
 	}
-
-    h1 {
-        font-family: Raleway
-    }
+	@font-face {
+		/* Reference name */
+		font-family: 'RalewayBlack';
+		/* For multiple files use commas, ex: url(), url(), ... */
+		src: url('/fonts/Raleway-Black.ttf');
+		font-display: swap;
+	}
+	@font-face {
+		/* Reference name */
+		font-family: 'LibreBaskerville';
+		/* For multiple files use commas, ex: url(), url(), ... */
+		src: url('/fonts/LibreBaskerville-Regular.ttf');
+		font-display: swap;
+	}
+	h1, h2 {
+		font-family: RalewayBlack;
+	}
+	p {
+		font-family: LibreBaskerville;
+	}
 </style>
