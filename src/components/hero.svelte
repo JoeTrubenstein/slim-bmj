@@ -27,8 +27,8 @@
 		<!-- <figure>
 			<section class="img-bg" />
             <img
-            class="h-80 w-80"
-            src={logo}
+            class="h-48 w-full object-scale-down	"
+            src={widelogo}
             alt="Bald Man Brands"
           />
 		</figure> -->

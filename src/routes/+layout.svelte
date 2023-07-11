@@ -28,19 +28,21 @@
 	<svelte:fragment slot="header">
 		<div class="">
 			<!-- App Bar -->
-			<AppBar class="lg:px-12 px-4b" background="bg-white border dark:bg-slate-800 dark:border-0">
+			<AppBar slotDefault="place-self-center" class="lg:px-12 px-4b" background="bg-white border dark:bg-slate-800 dark:border-0">
 				<!-- Lead -->
 				<svelte:fragment slot="lead">
 					<strong class="text-lg">Bald Man Brands</strong>
 				</svelte:fragment>
-
+                <div class="hidden md:flex gap-4 -mx-28">
+					<a href="../" class="font-bold">Home</a>
+				  <a href="/about" class="font-bold">About</a>
+				  <a href="/contact" class="font-bold">Contact</a>
+			    </div>
 				<!-- Trail -->
 				<svelte:fragment slot="trail">
 					<div class="hidden md:block">
-						<a href="/about" class="btn btn-m variant-ghost-surface">About</a>
-						<a href="/contact" class="btn btn-m variant-ghost-surface">Contact</a>
 					</div>
-					<LightSwitch class="hidden md:block" />
+					<LightSwitch class="block" />
 					<div class="flex items-center">
 						<button on:click={drawerOpen} class="md:hidden btn btn-sm mr-4">
 							<span>
@@ -53,6 +55,7 @@
 						</button>
 					</div>
 				</svelte:fragment>
+
 			</AppBar>
 		</div>
 	</svelte:fragment>
@@ -63,7 +66,7 @@
 	</div></AppShell>
 
 <style>
-	strong {
+	strong, a {
 	    font-family: Raleway;
 	}
 </style>

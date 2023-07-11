@@ -1,6 +1,6 @@
 <script lang="ts">
 
-  import { drawerStore, LightSwitch } from '@skeletonlabs/skeleton';
+  import { drawerStore } from '@skeletonlabs/skeleton';
 
   function drawerClose(): void {
 	drawerStore.close();
@@ -19,7 +19,6 @@
 	    </div>
 		<hr class="my-4"/>
 		<div class="flex items-center justify-center mt-4">
-         <LightSwitch />
 		</div>
 	</ul>
 </nav>
