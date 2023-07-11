@@ -44,7 +44,7 @@
       Bald Man Brands
     </h1>
 	<h2
-	class="text-4xl lg:text-5xl xl:text-6xl lg:tracking-tighter font-black text-indigo-600 dark:text-indigo-400">
+	class="text-3xl lg:text-4xl xl:text-5xl lg:tracking-tighter font-black text-indigo-600 dark:text-indigo-400">
 	really fast websites
   </h2>
     <p class="text-lg mt-4 max-w-xl font-light text-gray-900 md:text-lg dark:text-gray-400">
@@ -91,24 +91,8 @@
 			transform: scale(1.5);
 		}
 	}
-	@font-face {
-		/* Reference name */
-		font-family: 'RalewayBlack';
-		/* For multiple files use commas, ex: url(), url(), ... */
-		src: url('/fonts/Raleway-Black.ttf');
-		font-display: swap;
-	}
-	@font-face {
-		/* Reference name */
-		font-family: 'LibreBaskerville';
-		/* For multiple files use commas, ex: url(), url(), ... */
-		src: url('/fonts/LibreBaskerville-Regular.ttf');
-		font-display: swap;
-	}
+
 	h1, h2 {
-		font-family: RalewayBlack;
-	}
-	p {
-		font-family: LibreBaskerville;
+		font-family: Raleway;
 	}
 </style>
