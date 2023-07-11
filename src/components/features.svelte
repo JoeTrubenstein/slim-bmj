@@ -53,6 +53,6 @@
 
 <style>
   h2, h3 {
-    font-family: Raleway;
+    font-family: Montserrat;
   }
 </style>

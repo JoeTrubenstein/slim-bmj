@@ -95,6 +95,6 @@
 	}
 
 	h1, h2 {
-		font-family: Raleway;
+		font-family: Montserrat;
 	}
 </style>

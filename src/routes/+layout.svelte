@@ -72,6 +72,6 @@
 <style>
 	strong,
 	a {
-		font-family: Raleway;
+		font-family: Montserrat;
 	}
 </style>

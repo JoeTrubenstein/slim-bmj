@@ -18,6 +18,6 @@
 
 <style>
   h2 {
-    font-family: Raleway;
+    font-family: Montserrat;
   }
 </style>

@@ -25,6 +25,6 @@
 
 <style>
 	ul {
-		font-family: Raleway;
+		font-family: Montserrat;
 	}
 </style>
