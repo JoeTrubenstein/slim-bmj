@@ -42,7 +42,7 @@
 				<div>
 					<h3 class="font-semibold text-lg text-indigo-600 dark:text-indigo-400">{item.title}</h3>
 					{' '}
-					<p class="mt-2 leading-relaxed font-light text-gray-900 md:text-lg dark:text-gray-400">
+					<p class="mt-2 leading-relaxed text-gray-900 md:text-lg dark:text-gray-400">
 						{item.description}
 					</p>
 				</div>

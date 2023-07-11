@@ -4,14 +4,16 @@
 </script>
 
 <section
-  class="grid lg:grid-cols-2 place-items-center pb-8 md:pt-12 md:pb-24 lg:px-12 px-4 lg:mt-12 2xl:place-items-start 2xl:justify-center 2xl:items-center">
-  <div class="py-6 lg:order-1 md:block hidden 2xl:ml-44">
+  class="grid lg:grid-cols-2 place-items-center pb-8 md:pt-12 md:pb-24 lg:px-12 px-4 lg:mt-12 lg:place-items-start">
+  
+  <div class="py-6 lg:order-1 md:flex hidden w-full items-center justify-center">
 
     	<!-- Animated Logo -->
 		<figure>
 			<section class="img-bg" />
             <img
             class="w-72 h-72"
+			loading="lazy"
             src={logo}
             alt="Bald Man Brands"
           />
@@ -21,7 +23,7 @@
   </div>
 
   <!--  -->
-    <div class="py-6 lg:order-1 md:hidden block 2xl:ml-44">
+    <div class="py-6 lg:order-1 md:hidden block">
     		<!-- Animated Logo -->
 
 		<!-- <figure>
@@ -40,11 +42,11 @@
 
   <div class="lg:text-left md:text-center text-left">
     <h1
-      class="text-4xl lg:text-6xl xl:text-7xl lg:tracking-tighter font-black text-primary-500 dark:text-white">
+      class="text-4xl lg:text-6xl xl:text-7xl tracking-tighter font-black text-primary-500 dark:text-white">
       Bald Man Brands
     </h1>
 	<h2
-	class="text-3xl lg:text-4xl xl:text-5xl lg:tracking-tighter font-black text-indigo-600 dark:text-indigo-400">
+	class="text-3xl lg:text-5xl xl:text-6xl tracking-tighter font-black text-indigo-600 dark:text-indigo-400">
 	really fast websites
   </h2>
     <p class="text-lg mt-4 max-w-xl font-light text-gray-900 md:text-lg dark:text-gray-400">
