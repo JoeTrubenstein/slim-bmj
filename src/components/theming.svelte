@@ -7,17 +7,17 @@
 	let theme = 'simple';
 	const themeStyles: any = {
 		simple: {
-			base: 'bg-indigo-400 font-sans rounded-container-token',
-			header: 'bg-primary-500 p-4 grid grid-cols-3 gap-8 items-center rounded-tl-container-token rounded-tr-container-token',
+			base: 'bg-indigo-200 font-sans rounded-container-token',
+			header: 'bg-indigo-600  p-4 grid grid-cols-3 gap-8 items-center rounded-tl-container-token rounded-tr-container-token',
 			src: "https://source.unsplash.com/random",
 			img: 'bg-black w-full aspect-square rounded-full object-cover',
-			text1: 'text-on-primary-token text-lg opacity-75',
+			text1: 'text-on-primary-token text-lg opacity-75 ',
 			text2: 'text-on-primary-token font-bold text-xl sm:text-3xl',
-			text3: 'text-on-primary-token text-lg sm:text-2xl',
+			text3: 'text-on-primary-token text-lg sm:text-2xl ',
 			progressTrack: 'bg-primary-400',
 			progressMeter: 'bg-white',
 			footer: 'p-10 grid grid-cols-5 gap-10 place-items-center rounded-tl-3xl rounded-tr-3xl',
-			button: 'btn-icon',
+			button: 'btn-icon text-black',
             track: "M+M's",
             artist: "Blink-182",
             link: "https://youtu.be/kZs88WWGDoo"
