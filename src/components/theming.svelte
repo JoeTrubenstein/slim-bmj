@@ -78,7 +78,7 @@
 	<!-- Info -->
 	<div class="space-y-4 md:space-y-10">
 		<div class="max-w-[640px] mx-auto space-y-4 mb-12 sm:mb-0">
-			<h2 class="text-3xl lg:text-5xl tracking-tighter font-black text-primary-500 dark:text-white">Express your aesthetic</h2>
+			<h2 class="text-3xl lg:text-5xl tracking-tight lg:tracking-tighter font-black text-primary-500 dark:text-white">Express your aesthetic</h2>
 			<!-- prettier-ignore -->
 			<p class="leading-relaxed text-gray-900 md:text-lg dark:text-gray-400 ">
 				Create fully customized thems that <strong class="font-black text-indigo-600 dark:text-indigo-400">look and feel</strong> like your brand.<wbr> Use your existing assets for inspiration or start entirely from scratch. 
