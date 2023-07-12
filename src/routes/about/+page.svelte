@@ -4,14 +4,14 @@
 
 	<section>
 		<div class="sm:px-8 mt-12 sm:mt-20">
-			<div class="mx-auto lg:px-8">
+			<div class="mx-auto max-w-7xl lg:px-8">
 				<div class="relative px-4 sm:px-8 lg:px-12">
-					<div class="mx-auto ">
+					<div class="mx-auto max-w-2xl lg:max-w-5xl">
 						<div
 							class="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12"
 						>
 							<div class="lg:pl-20">
-								<div class="max-w-sm">
+								<div class="max-w-sm lg:max-w-none">
 									<img
 										alt=""
 										loading="lazy"
@@ -30,7 +30,7 @@
 								<h1
 									class="text-4xl font-black tracking-tight sm:text-5xl"
 								>
-									For the love of code
+									About me
 								</h1>
 								<div class="mt-6 space-y-7 text-base md:text-lg">
 									<p>
@@ -147,6 +147,6 @@
 
   <style>
     h1 {
-      font-family: Raleway;
+      font-family: Montserrat;
     }
   </style>

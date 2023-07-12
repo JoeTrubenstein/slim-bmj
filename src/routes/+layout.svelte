@@ -36,7 +36,7 @@
 			>
 				<!-- Lead -->
 				<svelte:fragment slot="lead">
-					<strong class="text-lg">Bald Man Brands</strong>
+					<a href="../"><strong class="text-lg">Bald Man Brands</strong></a>
 				</svelte:fragment>
 				<div class="hidden md:flex gap-4 -mx-28">
 					<a href="../" class="font-bold">Home</a>

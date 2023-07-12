@@ -2,6 +2,7 @@
  import Hero from "../components/hero.svelte"
  import Features from "../components/features.svelte"
  import Cta from "../components/cta.svelte"
+ import Theming from "../components/theming.svelte";
 </script>
 
 <svelte:head>
@@ -10,4 +11,5 @@
 
 <Hero />
 <Features />
+<Theming />
 <Cta />

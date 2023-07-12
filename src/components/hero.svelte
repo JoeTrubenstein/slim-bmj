@@ -49,7 +49,7 @@
 	class="text-3xl lg:text-5xl xl:text-6xl tracking-tighter font-black text-indigo-600 dark:text-indigo-400">
 	really fast websites
   </h2>
-    <p class="text-lg mt-4 max-w-xl font-light text-gray-900 md:text-lg dark:text-gray-400">
+    <p class="text-lg mt-4 max-w-xl leading-relaxed text-gray-900 md:text-lg dark:text-gray-400">
       Boutique web development and digital marketing from Japan.<wbr> I make hand-coded websites and data-driven ad campaigns that outperform and outshine.
     </p>
     <div class="mt-6 flex flex-col sm:flex-row gap-3 md:justify-center lg:justify-start">
