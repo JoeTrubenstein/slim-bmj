@@ -62,6 +62,6 @@
 <style>
 	h2,
 	h3 {
-		font-family: Montserrat;
+		font-family: Inter;
 	}
 </style>

@@ -20,7 +20,7 @@
 			button: 'btn-icon text-black',
             track: "M+M's",
             artist: "Blink-182",
-            link: "https://youtu.be/kZs88WWGDoo"
+
 		},
 		elegant: {
 			base: 'bg-white text-black font-serif shadow',
@@ -36,7 +36,7 @@
 			button: 'btn-icon rounded-none text-black ring-[1px] ring-black/5',
             track: "Humoresque No.7 in G flat, Op.101 No. 7",
             artist: "Josef Hassid",
-            link: "https://youtu.be/iY1ZNKFX5og"
+    
 		},
 		playful: {
 			base: 'bg-blue-700 text-white font-sans rounded-3xl shadow-xl',
@@ -52,7 +52,7 @@
 			button: 'btn-icon bg-amber-300 text-blue-900',
             track: "Party Hard",
             artist: "Andrew W.K.",
-            link: "https://youtu.be/WccfbPQNMbg"
+          
 		},
 		brutalist: {
 			base: 'bg-black text-white font-mono overflow-hidden',
@@ -68,7 +68,7 @@
 			button: 'btn-icon rounded-none bg-teal-300 text-black ring ring-white',
             track: "Goliath",
             artist: "The Mars Volta",
-            link: "https://youtu.be/lrwMMF2QS14"
+        
 		}
 	};
 </script>
@@ -162,11 +162,11 @@
                     <path d="M9.195 18.44c1.25.713 2.805-.19 2.805-1.629v-2.34l6.945 3.968c1.25.714 2.805-.188 2.805-1.628V8.688c0-1.44-1.555-2.342-2.805-1.628L12 11.03v-2.34c0-1.44-1.555-2.343-2.805-1.629l-7.108 4.062c-1.26.72-1.26 2.536 0 3.256l7.108 4.061z" />
                   </svg>
                   </button>
-				<a class={themeStyles[theme].button} href={themeStyles[theme].link} target="_blank">
+				<button class={themeStyles[theme].button} >
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
                     <path d="M15 6.75a.75.75 0 00-.75.75V18a.75.75 0 00.75.75h.75a.75.75 0 00.75-.75V7.5a.75.75 0 00-.75-.75H15zM20.25 6.75a.75.75 0 00-.75.75V18c0 .414.336.75.75.75H21a.75.75 0 00.75-.75V7.5a.75.75 0 00-.75-.75h-.75zM5.055 7.06C3.805 6.347 2.25 7.25 2.25 8.69v8.122c0 1.44 1.555 2.343 2.805 1.628l7.108-4.061c1.26-.72 1.26-2.536 0-3.256L5.055 7.061z" />
                   </svg>
-                </a>
+                </button>
 				<button class={themeStyles[theme].button}>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
                     <path d="M5.055 7.06c-1.25-.714-2.805.189-2.805 1.628v8.123c0 1.44 1.555 2.342 2.805 1.628L12 14.471v2.34c0 1.44 1.555 2.342 2.805 1.628l7.108-4.061c1.26-.72 1.26-2.536 0-3.256L14.805 7.06C13.555 6.346 12 7.25 12 8.688v2.34L5.055 7.06z" />
@@ -184,7 +184,7 @@
 
 <style>
     h2 {
-        font-family: Montserrat;
+        font-family: Inter;
     }
     .tab-lead {
         display: flex;

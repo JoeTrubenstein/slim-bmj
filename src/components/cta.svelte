@@ -17,6 +17,6 @@
 
 <style>
   h2 {
-    font-family: Montserrat;
+    font-family: Inter;
   }
 </style>

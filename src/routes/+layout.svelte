@@ -70,8 +70,7 @@
 </AppShell>
 
 <style>
-	strong,
 	a {
-		font-family: Montserrat;
+		font-family: Inter;
 	}
 </style>
