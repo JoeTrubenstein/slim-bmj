@@ -1,6 +1,7 @@
 <script>
  import Hero from "../components/hero.svelte"
  import Features from "../components/features.svelte"
+ import Usp from "../components/usp.svelte";
  import Cta from "../components/cta.svelte"
 
 </script>
@@ -11,4 +12,5 @@
 
 <Hero />
 <Features />
+<Usp />
 <Cta />
