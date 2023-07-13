@@ -26,7 +26,7 @@
 </script>
 
 <!-- Drawer Overlay -->
-<Drawer>
+<Drawer bgDrawer="bg-white dark:bg-slate-800">
 	<Navigation />
 </Drawer>
 
@@ -49,6 +49,7 @@
 					<a href="/about" class="font-bold">About</a>
 					<a href="/contact" class="font-bold">Contact</a>
 				</div>
+
 				<!-- Trail -->
 				<svelte:fragment slot="trail">
 					<div class="hidden md:block" />

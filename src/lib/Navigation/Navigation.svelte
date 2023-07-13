@@ -25,6 +25,6 @@
 
 <style>
 	ul {
-		font-family: Montserrat;
+		font-family: Inter;
 	}
 </style>
