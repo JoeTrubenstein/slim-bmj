@@ -28,7 +28,7 @@
 							</div>
 							<div class="lg:order-first lg:row-span-2">
 								<h1
-									class="text-4xl font-black tracking-tight sm:text-5xl"
+									class="text-4xl font-extrabold tracking-tight sm:text-5xl"
 								>
 									About me
 								</h1>
@@ -147,6 +147,6 @@
 
   <style>
     h1 {
-      font-family: Montserrat;
+      font-family: Inter;
     }
   </style>

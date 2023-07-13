@@ -8,7 +8,7 @@
       <div class="relative left-1/2 -z-10 aspect-[1155/678] w-[36.125rem] max-w-none -translate-x-1/2 rotate-[30deg]"></div>
     </div>
     <div class="mx-auto max-w-2xl text-center">
-      <h1 class="text-3xl lg:text-5xl xl:text-6xl tracking-tighter font-black">Contact</h1>
+      <h1 class="text-3xl lg:text-5xl xl:text-6xl tracking-tighter font-extrabold">Contact</h1>
       <p class="mt-2 text-lg leading-8 text-gray-600">Aute magna irure deserunt veniam aliqua magna enim voluptate.</p>
     </div>
     <form action="#" method="POST" class="mx-auto mt-16 max-w-xl sm:mt-20">
@@ -80,6 +80,6 @@
 
   <style>
     h1 {
-        font-family: Montserrat;
+        font-family: Inter;
     }
   </style>

@@ -13,10 +13,16 @@
 	import Footer from '../components/footer.svelte';
 	import { Drawer, drawerStore } from '@skeletonlabs/skeleton';
 	import { LightSwitch } from '@skeletonlabs/skeleton';
+	import hljs from 'highlight.js';
+	import 'highlight.js/styles/tokyo-night-dark.css';
+	import { storeHighlightJs } from '@skeletonlabs/skeleton';
+
+    storeHighlightJs.set(hljs);
 
 	function drawerOpen(): void {
 		drawerStore.open({});
 	}
+
 </script>
 
 <!-- Drawer Overlay -->

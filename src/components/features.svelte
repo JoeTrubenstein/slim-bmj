@@ -23,7 +23,7 @@
 
 <section class="md:pt-6 md:pb-12 lg:px-12 px-4 pt-2">
 	<div class="mt-16 md:mt-0">
-		<h2 class="text-3xl lg:text-5xl tracking-tight lg:tracking-tighter font-black text-primary-500 dark:text-white">
+		<h2 class="text-3xl lg:text-5xl tracking-tight lg:tracking-tighter font-extrabold text-primary-500 dark:text-white">
 			Everything you need to build an online presence
 		</h2>
 		<p class="text-lg mt-4 leading-relaxed text-gray-900 md:text-lg dark:text-gray-400">
