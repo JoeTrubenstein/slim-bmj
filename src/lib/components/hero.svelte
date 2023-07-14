@@ -20,11 +20,11 @@
 
   <div class="lg:text-left sm:text-center text-left">
     <h1
-      class="text-slate-900 font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight dark:text-white">
+      class="text-slate-900 font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight dark:text-white leading-normal">
       Bald Man Brands
     </h1>
 	<h2
-	class="text-3xl lg:text-5xl xl:text-6xl tracking-tight lg:tracking-tighter font-extrabold text-indigo-600 dark:text-indigo-400">
+	class="text-3xl lg:text-5xl xl:text-6xl tracking-tight lg:tracking-tighter font-extrabold text-indigo-600 dark:text-indigo-400 leading-normal">
 	really fast websites
   </h2>
     <p class="text-lg mt-4 max-w-xl leading-relaxed text-gray-900 md:text-lg dark:text-gray-400">
