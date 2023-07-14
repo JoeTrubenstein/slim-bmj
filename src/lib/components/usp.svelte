@@ -1,18 +1,28 @@
 <script lang="ts">
-	import results from '$lib/assets/resultsmobile.webp';
+	import resultsmobile from '$lib/assets/resultsmobile.webp';
+	import results from '$lib/assets/results.webp';
 </script>
 
 <section class="lg:pt-6">
 
     <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
 
-<div class="flex items-center justify-center">
+<div class="sm:flex items-center justify-center hidden">
 	<img
 	class="w-full rounded-lg aspect-video bg-cover bg-center"
 	src={results}
 	alt="Bald Man Brands"
   />
 </div>
+
+<div class="flex items-center justify-center sm:hidden">
+	<img
+	class="w-full rounded-lg aspect-video bg-cover bg-center"
+	src={resultsmobile}
+	alt="Bald Man Brands"
+  />
+</div>
+
 
         <div class="mt-4 md:mt-0">
             <h2 class="mb-4 text-slate-900 font-extrabold text-3xl sm:text-4xl lg:text-5xl tracking-tight dark:text-white">Real, measurable impact</h2>
