@@ -10,7 +10,7 @@
 
 	import { AppShell, AppBar } from '@skeletonlabs/skeleton';
 	import Navigation from '$lib/Navigation/Navigation.svelte';
-	import Footer from '../components/footer.svelte';
+	import Footer from '../lib/components/footer.svelte';
 	import { Drawer, drawerStore } from '@skeletonlabs/skeleton';
 	import { LightSwitch } from '@skeletonlabs/skeleton';
 	import hljs from 'highlight.js';

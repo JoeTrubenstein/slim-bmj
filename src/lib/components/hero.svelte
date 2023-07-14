@@ -1,48 +1,26 @@
 <script>
   import logo from '$lib/assets/bmbsquare.webp';
-  import widelogo from '$lib/assets/bmbwide.webp'
+  import widelogo from '$lib/assets/widebmb.webp'
 </script>
 
-<section
-  class="grid lg:grid-cols-2 place-items-center pb-8 md:pt-12 md:pb-24 lg:px-12 px-4 lg:mt-12 lg:place-items-start">
-  
-  <div class="py-6 lg:order-1 md:flex hidden w-full items-center justify-center">
+<section class="grid lg:grid-cols-2 place-items-center md:pb-24 lg:px-12 px-4 mt-8 lg:mt-12 lg:pt-8 lg:place-items-start">
 
-    	<!-- Animated Logo -->
+    <div class="py-6 lg:order-1 sm:flex hidden w-full items-center justify-center">
+        <!-- Animated Logo -->
 		<figure>
 			<section class="img-bg" />
             <img
-            class="w-72 h-72"
-			loading="lazy"
+            class="w-full aspect-square bg-cover bg-center h-72"
             src={logo}
             alt="Bald Man Brands"
           />
 		</figure>
 		<!-- / -->
+    </div>
 
-  </div>
-
-  <!--  -->
-    <div class="py-6 lg:order-1 md:hidden block">
-    		<!-- Animated Logo -->
-
-		<!-- <figure>
-			<section class="img-bg" />
-            <img
-            class="h-48 w-full object-scale-down	"
-            src={widelogo}
-            alt="Bald Man Brands"
-          />
-		</figure> -->
-
-		<!-- / -->
-  </div>
-
-
-
-  <div class="lg:text-left md:text-center text-left">
+  <div class="lg:text-left sm:text-center text-left">
     <h1
-      class="text-4xl lg:text-6xl xl:text-7xl tracking-tight lg:tracking-tighter font-extrabold text-primary-500 dark:text-white">
+      class="text-slate-900 font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight dark:text-white">
       Bald Man Brands
     </h1>
 	<h2
@@ -52,12 +30,25 @@
     <p class="text-lg mt-4 max-w-xl leading-relaxed text-gray-900 md:text-lg dark:text-gray-400">
       Boutique web development and digital marketing from Japan.<wbr> Hand-coded websites and data-driven ad campaigns that outperform and outshine.
     </p>
-    <div class="mt-6 flex flex-col sm:flex-row gap-3 md:justify-center lg:justify-start">
-	  <button type="button" class="btn variant-filled bg-primary-500">See how</button>
-      <button type="button" class="btn variant-filled bg-primary-500">
+
+<!-- Mobile Image -->
+<div class="py-6 sm:hidden block">
+	<img
+		class="w-full rounded-lg aspect-video bg-cover bg-center"
+		src={widelogo}
+		alt="Bald Man Brands"
+	/>
+  </div>
+<!-- / Mobile Image  -->
+
+
+<div class="sm:mt-6 mt-2 flex flex-col sm:flex-row gap-3 sm:justify-center lg:justify-start">
+	<button type="button" class="btn variant-filled bg-primary-500">See how</button>
+    <button type="button" class="btn variant-filled bg-primary-500">
 	    <span>Get started for free</span>  
-      </button>
-    </div>
+    </button>
+</div>
+
   </div>
 </section>
 

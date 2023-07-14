@@ -1,8 +1,9 @@
 <script>
- import Hero from "../components/hero.svelte"
- import Features from "../components/features.svelte"
- import Usp from "../components/usp.svelte";
- import Cta from "../components/cta.svelte"
+ import Hero from "$lib/components/hero.svelte"
+ import Features from "$lib/components/features.svelte"
+ import Usp from "$lib/components/usp.svelte"
+ import Cta from "$lib/components/cta.svelte"
+ import Testimonials from "$lib/components/testimonials.svelte";
 
 </script>
 
@@ -13,4 +14,5 @@
 <Hero />
 <Features />
 <Usp />
+<Testimonials />
 <Cta />
