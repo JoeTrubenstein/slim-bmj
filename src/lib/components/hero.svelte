@@ -1,6 +1,6 @@
 <script>
   import logo from '$lib/assets/bmbsquare.webp';
-  import widelogo from '$lib/assets/widebmb.webp'
+  import widelogo from '$lib/assets/widebmbmobile.webp'
 </script>
 
 <section class="grid lg:grid-cols-2 place-items-center md:pb-24 lg:px-12 px-4 mt-8 lg:mt-12 lg:pt-8 lg:place-items-start">

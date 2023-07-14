@@ -1,5 +1,5 @@
 <script lang="ts">
-	import results from '$lib/assets/results.webp';
+	import results from '$lib/assets/resultsmobile.webp';
 </script>
 
 <section class="lg:pt-6">
