@@ -19,10 +19,7 @@
     </div>
 
   <div class="lg:text-left sm:text-center text-left">
-    <h1
-      class="text-slate-900 font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight dark:text-white leading-normal">
-      Bald Man Brands
-    </h1>
+	<h1 class="text-slate-900 font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight dark:text-white">Bald Man Brands</h1>
 	<h2
 	class="text-3xl lg:text-5xl xl:text-6xl tracking-tight lg:tracking-tighter font-extrabold text-indigo-600 dark:text-indigo-400 leading-normal">
 	really fast websites
