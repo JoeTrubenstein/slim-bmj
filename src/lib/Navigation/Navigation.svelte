@@ -28,9 +28,3 @@
 		</div>
 	</ul>
 </nav>
-
-<style>
-	ul {
-		font-family: Inter;
-	}
-</style>
