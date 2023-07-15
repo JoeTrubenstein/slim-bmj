@@ -58,10 +58,3 @@
 		{/each}
 	</div>
 </section>
-
-<style>
-	h2,
-	h3 {
-		font-family: Inter;
-	}
-</style>

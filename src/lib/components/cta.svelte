@@ -14,9 +14,3 @@
   </div>
 </div>
 </div>
-
-<style>
-  h2 {
-    font-family: Inter;
-  }
-</style>
