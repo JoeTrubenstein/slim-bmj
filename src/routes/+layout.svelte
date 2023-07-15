@@ -75,9 +75,3 @@
 
 	<Footer />
 </AppShell>
-
-<style>
-	a {
-		font-family: Inter;
-	}
-</style>
