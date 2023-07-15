@@ -81,4 +81,9 @@
 			transform: scale(1.5);
 		}
 	}
+
+	h1 {
+		font-family: Inter;
+	}
+
 </style>
